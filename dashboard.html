@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        aside{
+            float: left;
+            background-color: black;
+            color: white;
+            height: 100vh;
+        }
+
+
+        aside ul li{
+            list-style: none;
+            padding: 5px 20px 5px 20px;
+            margin: 40px 10px 40px 10px;
+
+        }
+        aside ul li:hover{
+            background-color: rgb(75, 74, 74);
+            scale:1.2;
+            transition: scale 1s;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        #admin{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #logo{
+            width: 50px;
+            height: 50px;
+            padding: 0px;
+            border-radius: 50%;
+            background: linear-gradient(yellow,green);
+
+            
+        }
+    </style>
+</head>
+<body>
+     <aside>
+        <ul>
+            <li><a href="#"> Dashboard </a></li>
+            <li><a href="#"> Customers </a></li>
+            <li><a href="#"> Projects </a></li>
+            <li><a href="#"> Orders </a></li>
+            <li><a href="#"> Inventory </a></li>
+            <li><a href="#"> Accounts </a></li>
+            <li><a href="#"> Tasks </a></li>
+        </ul>
+     </aside>
+     <div id="admin">
+        <div></div>
+        <h1>Admin Dashboard</h1>
+        <div id="logo"></div>
+        
+     </div>
+
+     <script src="./dashboard.js"></script>
+</body>
+</html>
