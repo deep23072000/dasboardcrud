@@ -1,15 +1,6 @@
 {
   "registration": [
     {
-      "id": "12",
-      "name": "Rishabh Joshi",
-      "img": "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg",
-      "username": "rishab@gmail.com",
-      "mobile": "1234567890",
-      "password": "123",
-      "confirm_password": "123"
-    },
-    {
       "id": "34",
       "name": "kamlesh",
       "img": "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
@@ -17,15 +8,6 @@
       "mobile": "1234567890",
       "password": "1234",
       "confirm_password": "1234"
-    },
-    {
-      "id": "45",
-      "name": "anurag",
-      "img": "https://images.ctfassets.net/hrltx12pl8hq/01rJn4TormMsGQs1ZRIpzX/16a1cae2440420d0fd0a7a9a006f2dcb/Artboard_Copy_231.jpg?fit=fill&w=600&h=600",
-      "username": "anurag@gmail.com",
-      "mobile": "1234567890",
-      "password": "123456",
-      "confirm_password": "123456"
     }
   ]
 }
