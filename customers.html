@@ -61,9 +61,20 @@
             background-color: darkgray;
             color: crimson;
         }
+
+        #updateform{
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            z-index: 10;
+            
+            
+        }
     </style>
 </head>
 <body>
+    <div id="updateform"></div>
+    <section>
      <aside>
         <ul>
             <li><a href="dashboard.html"> Dashboard </a></li>
@@ -82,11 +93,10 @@
         <div id="showinfo"></div>
         
      </div>
-
+   
      <div> Add Customers + </div>
-
-
      <table id="show" border="2px" align="center"  cellpadding="10px"></table>
+     </section>
 
      <script src="./dashboard.js"></script>
      <script src="./customers.js"></script>

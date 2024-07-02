@@ -8,6 +8,15 @@
       "mobile": "1234567890",
       "password": "1234",
       "confirm_password": "1234"
+    },
+    {
+      "id": "1",
+      "name": "Deepak",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s",
+      "username": "deepak@gmail.com",
+      "mobile": "9399431102",
+      "password": "123",
+      "confirm_password": "123"
     }
   ]
 }
